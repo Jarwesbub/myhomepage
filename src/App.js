@@ -22,7 +22,7 @@ function App() {
         <Routes>
           <Route className="page-routes">
             <Route path={"/"} element={<FrontPage />} />
-            <Route path={URL+"/aboutme"} element={<AboutMe />} />
+            <Route path={"/aboutme"} element={<AboutMe />} />
             <Route path={URL+"/residentevildbg"} element={<ReDbg />} />
             <Route path={URL+"/uglyunicorn"} element={<UglyUnicorn />} />
             <Route path={URL+"/racinggame"} element={<RacingGame />} />
