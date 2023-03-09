@@ -4,16 +4,16 @@ import ImageTimerSlider from '../components/image_timer_slider';
 import './styles.css';
 
 const sliderSize = '600px';
-const repoName = process.env.REPOSITORY_NAME;
+const homepagePath = process.env.HOMEPAGE_PATH;
 
 export default function FrontPage() {
 
     const slides = [
-        { url: "./"+repoName+"/assets/images/mashups/redeckbuilding-smashup.png", caption: "Resident Evil - Deck Building Online Game", link: "#/residentevildbg"},
-        { url: "./"+repoName+"/assets/images/mashups/uglyunicorn-smashup.png", caption: "Ugly Unicorn", link: "#/uglyunicorn"},
-        { url: "./"+repoName+"/assets/images/mashups/racinggame-smashup.png", caption: "Racing Game", link: "#/racinggame"},
-        { url: "./"+repoName+"/assets/images/mashups/doggoinspace-smashup.png", caption: "Doggo in Space", link: "#/doggoinspace"},
-        { url: "./"+repoName+"/assets/images/mashups/tamram-smashup.png", caption: "TamRam - Battle Creatures", link: "#/tamram"},
+        { url: homepagePath+"/assets/images/mashups/redeckbuilding-smashup.png", caption: "Resident Evil - Deck Building Online Game", link: "#/residentevildbg"},
+        { url: homepagePath+"/assets/images/mashups/uglyunicorn-smashup.png", caption: "Ugly Unicorn", link: "#/uglyunicorn"},
+        { url: homepagePath+"/assets/images/mashups/racinggame-smashup.png", caption: "Racing Game", link: "#/racinggame"},
+        { url: homepagePath+"/assets/images/mashups/doggoinspace-smashup.png", caption: "Doggo in Space", link: "#/doggoinspace"},
+        { url: homepagePath+"/assets/images/mashups/tamram-smashup.png", caption: "TamRam - Battle Creatures", link: "#/tamram"},
     ];
 
     const containerStyles = {
