@@ -1,0 +1,23 @@
+.bar-main {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(27, 27, 36, 0.62);
+    
+}
+
+.footer-wrapper {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    border-style: outset;
+    border-color: rgba(0, 0, 0, 0.096);
+    
+}
+
+.footer-wrapper a {
+    font-size: 14px;
+}
+
+.footer-copyright {
+    font-size: 14px;
+
+}

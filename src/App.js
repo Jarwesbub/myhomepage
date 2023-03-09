@@ -1,23 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import { Container } from 'react-bootstrap';
+import NavBar from './components/NavBar';
+import Footer from './components/footer';
+import FrontPage from './pages/front_page';
+import AboutMe from './pages/aboutme_page';
+import ReDbg from './pages/re_dbg_page';
+import UglyUnicorn from './pages/uglyunicorn_page';
+import RacingGame from './pages/racing_game_page';
+import Doggo from './pages/doggoinspace_page';
+import TamRam from './pages/tamram_page';
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Container className="App-container" fluid>
+        <NavBar />
+        <Routes>
+          <Route className="page-routes">
+            <Route path="/" element={<FrontPage />} />
+            <Route path="/aboutme" element={<AboutMe />} />
+            <Route path="/residentevildbg" element={<ReDbg />} />
+            <Route path="/uglyunicorn" element={<UglyUnicorn />} />
+            <Route path="/racinggame" element={<RacingGame />} />
+            <Route path="/doggoinspace" element={<Doggo />} />
+            <Route path="/tamram" element={<TamRam />} />
+          </Route>
+        </Routes>
+      </Container>
+      <Footer />
     </div>
   );
 }
