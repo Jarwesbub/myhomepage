@@ -2,10 +2,12 @@ import ImageSlider from '../components/image_slider';
 import YoutubePlayer from '../components/youtube_player';
 import './styles.css';
 
+const URL = process.env.PUBLIC_URL;
+
 export default function UglyUnicornPage() {
     const slides = [
-        { url: "/assets/images/uglyunicorn/image-1.jpg", title: "Menu" },
-        { url: "/assets/images/uglyunicorn/image-2.png", title: "Gameplay1" },
+        { url: URL+"/assets/images/uglyunicorn/image-1.jpg", title: "Menu" },
+        { url: URL+"/assets/images/uglyunicorn/image-2.png", title: "Gameplay1" },
     ];
 
     const containerStyles = {

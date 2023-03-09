@@ -2,10 +2,12 @@ import ImageSlider from '../components/image_slider';
 import YoutubePlayer from '../components/youtube_player';
 import './styles.css';
 
+const URL = process.env.PUBLIC_URL;
+
 export default function RacingGamePage() {
     const slides = [
-        { url: "/assets/images/racinggame/image-1.png", title: "Gameplay1" },
-        { url: "/assets/images/racinggame/image-2.png", title: "Gameplay2" },
+        { url: URL+"/assets/images/racinggame/image-1.png", title: "Gameplay1" },
+        { url: URL+"/assets/images/racinggame/image-2.png", title: "Gameplay2" },
     ];
 
     const containerStyles = {

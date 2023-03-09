@@ -2,11 +2,13 @@ import ImageSlider from '../components/image_slider';
 import YoutubePlayer from '../components/youtube_player';
 import './styles.css';
 
+const URL = process.env.PUBLIC_URL;
+
 export default function TamRamPage() {
     const slides = [
-        { url: "/assets/images/tamram/image-1.png", title: "Gameplay1" },
-        { url: "/assets/images/tamram/image-2.png", title: "Gameplay2" },
-        { url: "/assets/images/tamram/image-3.png", title: "Gameplay3" },
+        { url: URL+"/assets/images/tamram/image-1.png", title: "Gameplay1" },
+        { url: URL+"/assets/images/tamram/image-2.png", title: "Gameplay2" },
+        { url: URL+"/assets/images/tamram/image-3.png", title: "Gameplay3" },
     ];
 
     const containerStyles = {
