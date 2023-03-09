@@ -1,8 +1,5 @@
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import {Container, Row, Col} from 'react-bootstrap';
 import './navbar_footer.css';
-
 
 export default function Footer(){
     const copyright = "@ 2023 Copyright: ";
@@ -16,7 +13,7 @@ export default function Footer(){
                     </Col>
                     <Col>
                     <div className="footer-copyright text-center py-3"> { copyright } 
-                <a href="https://github.com/">GitHub</a>
+                <a href="https://github.com/LemonSkull/myhomepage">GitHub</a>
             </div>
                     </Col>
                 </Row>
