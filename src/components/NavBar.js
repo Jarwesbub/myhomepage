@@ -11,8 +11,8 @@ export default function NavBar() {
           <NavItem style={{fontSize:"16px"}}>Jarno Liedes - Programmer Portfolio</NavItem>
         </Nav>
         <Nav className="ms-auto" >
-        <Navbar.Brand href={"#/"} >Home</Navbar.Brand>
-          <Nav.Link href={"#/aboutme"}>About me</Nav.Link>
+        <Navbar.Brand href={"/"} >Home</Navbar.Brand>
+          <Nav.Link href={"/aboutme"}>About me</Nav.Link>
           <Navbar.Toggle aria-controls="navbar-normal" />
           <Navbar.Collapse>
             <NavDropdown title={"Game Projects (Unity)"} >

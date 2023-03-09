@@ -21,8 +21,8 @@ function App() {
         <NavBar />
         <Routes>
           <Route className="page-routes">
-            <Route path={"#/"} element={<FrontPage />} />
-            <Route path={"#/aboutme"} element={<AboutMe />} />
+            <Route path={"/"} element={<FrontPage />} />
+            <Route path={"/aboutme"} element={<AboutMe />} />
             <Route path={"#/residentevildbg"} element={<ReDbg />} />
             <Route path={"#/uglyunicorn"} element={<UglyUnicorn />} />
             <Route path={"#/racinggame"} element={<RacingGame />} />
