@@ -1,13 +1,13 @@
 import ImageSlider from '../components/image_slider';
 import YoutubePlayer from '../components/youtube_player';
 import './styles.css';
-
-const URL = process.env.PUBLIC_URL;
+import img1 from "../assets/images/DoggoInSpace/image-1.png";
+import img2 from "../assets/images/DoggoInSpace/image-2.png";
 
 export default function DoggoInSpacePage() {
     const slides = [
-        { url: URL+"/assets/images/doggoinspace/image-1.png", title: "Menu" },
-        { url: URL+"/assets/images/doggoinspace/image-2.png", title: "Gameplay1" },
+        { url: img1, title: "Menu" },
+        { url: img2, title: "Gameplay1" },
     ];
 
     const containerStyles = {

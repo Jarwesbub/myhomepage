@@ -1,13 +1,13 @@
 import ImageSlider from '../components/image_slider';
 import YoutubePlayer from '../components/youtube_player';
 import './styles.css';
-
-const URL = process.env.PUBLIC_URL;
+import img1 from "../assets/images/ReDBG/image-1.png";
+import img2 from "../assets/images/ReDBG/image-2.png";
 
 export default function ReDeckBuilingGame() {
     const slides = [
-        { url: URL+"/assets/images/redbg/image-1.png", title: "Menu" },
-        { url: URL+"/assets/images/redbg/image-2.png", title: "Gameplay1" },
+        { url: img1, title: "Menu" },
+        { url: img2, title: "Gameplay1" },
     ];
 
     const containerStyles = {

@@ -1,17 +1,21 @@
 import SlideShow from '../components/slideshow';
 import './styles.css';
+import img1 from '../assets/images/MashUps/redeckbuilding-smashup.png';
+import img2 from '../assets/images/MashUps/uglyunicorn-smashup.png';
+import img3 from '../assets/images/MashUps/racinggame-smashup.png';
+import img4 from '../assets/images/MashUps/doggoinspace-smashup.png';
+import img5 from '../assets/images/MashUps/tamram-smashup.png';
 
 const sliderSize = '600px';
-const URL = process.env.PUBLIC_URL;
 
 export default function FrontPage() {
 
     const slides = [
-        { url: URL+"/assets/images/mashups/redeckbuilding-smashup.png", caption: "Resident Evil - Deck Building Online Game", link: "#/residentevildbg"},
-        { url: URL+"/assets/images/mashups/uglyunicorn-smashup.png", caption: "Ugly Unicorn", link: "#/uglyunicorn"},
-        { url: URL+"/assets/images/mashups/racinggame-smashup.png", caption: "Racing Game", link: "#/racinggame"},
-        { url: URL+"/assets/images/mashups/doggoinspace-smashup.png", caption: "Doggo in Space", link: "#/doggoinspace"},
-        { url: URL+"/assets/images/mashups/tamram-smashup.png", caption: "TamRam - Battle Creatures", link: "#/tamram"},
+        { url: img1, caption: "Resident Evil - Deck Building Online Game", link: "#/residentevildbg"},
+        { url: img2, caption: "Ugly Unicorn", link: "#/uglyunicorn"},
+        { url: img3, caption: "Racing Game", link: "#/racinggame"},
+        { url: img4, caption: "Doggo in Space", link: "#/doggoinspace"},
+        { url: img5, caption: "TamRam - Battle Creatures", link: "#/tamram"},
     ];
 
     const containerStyles = {
