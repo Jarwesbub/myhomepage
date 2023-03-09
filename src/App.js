@@ -11,7 +11,7 @@ import RacingGame from './pages/racing_game_page';
 import Doggo from './pages/doggoinspace_page';
 import TamRam from './pages/tamram_page';
 
-const URL = "/myhomepage#";
+const URL = "/myhomepage";
 
 function App() {
 
@@ -22,7 +22,7 @@ function App() {
         <Routes>
           <Route className="page-routes">
             <Route path={"/"} element={<FrontPage />} />
-            <Route path={"/aboutme"} element={<AboutMe />} />
+            <Route path={URL+"/aboutme"} element={<AboutMe />} />
             <Route path={"#/residentevildbg"} element={<ReDbg />} />
             <Route path={"#/uglyunicorn"} element={<UglyUnicorn />} />
             <Route path={"#/racinggame"} element={<RacingGame />} />
