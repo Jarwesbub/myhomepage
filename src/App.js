@@ -11,6 +11,8 @@ import RacingGame from './pages/racing_game_page';
 import Doggo from './pages/doggoinspace_page';
 import TamRam from './pages/tamram_page';
 
+const URL = "/myhomepage";
+
 function App() {
 
   return (
@@ -19,13 +21,13 @@ function App() {
         <NavBar />
         <Routes>
           <Route className="page-routes">
-            <Route path="/" element={<FrontPage />} />
-            <Route path="/aboutme" element={<AboutMe />} />
-            <Route path="/residentevildbg" element={<ReDbg />} />
-            <Route path="/uglyunicorn" element={<UglyUnicorn />} />
-            <Route path="/racinggame" element={<RacingGame />} />
-            <Route path="/doggoinspace" element={<Doggo />} />
-            <Route path="/tamram" element={<TamRam />} />
+            <Route path={URL+"/"} element={<FrontPage />} />
+            <Route path={URL+"/aboutme"} element={<AboutMe />} />
+            <Route path={URL+"/residentevildbg"} element={<ReDbg />} />
+            <Route path={URL+"/uglyunicorn"} element={<UglyUnicorn />} />
+            <Route path={URL+"/racinggame"} element={<RacingGame />} />
+            <Route path={URL+"/doggoinspace"} element={<Doggo />} />
+            <Route path={URL+"/tamram"} element={<TamRam />} />
           </Route>
         </Routes>
       </Container>
