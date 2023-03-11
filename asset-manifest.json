@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/myhomepage/static/css/main.fe67c381.css",
-    "main.js": "/myhomepage/static/js/main.921326c9.js",
+    "main.css": "/myhomepage/static/css/main.ae686949.css",
+    "main.js": "/myhomepage/static/js/main.9462b6ef.js",
     "static/js/787.f5fbd4a6.chunk.js": "/myhomepage/static/js/787.f5fbd4a6.chunk.js",
     "static/media/redeckbuilding-smashup.png": "/myhomepage/static/media/redeckbuilding-smashup.dfad2f8cecec8df7356e.png",
     "static/media/image-2.png": "/myhomepage/static/media/image-2.86e7d14ff97b7a25ee52.png",
@@ -14,12 +14,12 @@
     "static/media/doggoinspace-smashup.png": "/myhomepage/static/media/doggoinspace-smashup.03d586747787659f36f8.png",
     "static/media/myavatar.jpg": "/myhomepage/static/media/myavatar.08d1a5421e31ff23085d.jpg",
     "index.html": "/myhomepage/index.html",
-    "main.fe67c381.css.map": "/myhomepage/static/css/main.fe67c381.css.map",
-    "main.921326c9.js.map": "/myhomepage/static/js/main.921326c9.js.map",
+    "main.ae686949.css.map": "/myhomepage/static/css/main.ae686949.css.map",
+    "main.9462b6ef.js.map": "/myhomepage/static/js/main.9462b6ef.js.map",
     "787.f5fbd4a6.chunk.js.map": "/myhomepage/static/js/787.f5fbd4a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe67c381.css",
-    "static/js/main.921326c9.js"
+    "static/css/main.ae686949.css",
+    "static/js/main.9462b6ef.js"
   ]
 }
