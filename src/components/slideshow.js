@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 
 const URL = "/myhomepage/";
 
 export default function Slideshow(props) {
+    const [fontSize] = useState('28px');
+
     const spanStyle = {
         padding: '5px',
         fontSize: '28px',
@@ -16,17 +18,17 @@ export default function Slideshow(props) {
         alignItems: 'center',
         justifyContent: 'center',
         backgroundSize: 'cover',
-        height: props.boxSize,
+        height: props.imageHeight,
     }
     return (
         <div className="slide-container">
-            <Slide>
+            <Slide autoplay={props.autoplay} transitionDuration={props.autoplay ? 1000 : 600}>
                 {props.slideImages.map((slideImage, index) => (
                     <div key={index}>
                         <div style={{ ...divStyle, 'backgroundImage': `url(${slideImage.url})` }}>
                             <span style={spanStyle}>
-                                <a href={URL+slideImage.link} style={{textDecoration:'none', color: 'white'}}>{slideImage.caption}</a>
-                                </span>
+                                <a href={URL + slideImage.link} style={{ textDecoration: 'none', color: 'white', fontSize: fontSize }}>{slideImage.caption}</a>
+                            </span>
                         </div>
                     </div>
                 ))}

@@ -1,18 +1,23 @@
-import ImageSlider from '../components/image_slider';
+import SlideShow from '../components/slideshow';
 import YoutubePlayer from '../components/youtube_player';
 import './styles.css';
 import img1 from "../assets/images/UglyUnicorn/image-1.jpg";
 import img2 from "../assets/images/UglyUnicorn/image-2.png";
 
-export default function UglyUnicornPage() {
+export default function UglyUnicornPage({ imageSlider }) {
+    const scaleItem = window.innerWidth < imageSlider.width; // Boolean for checking max width for the slider
+    const screenWidth = window.innerWidth - 40; // Current screen width minus margin
+    const sliderWidth = scaleItem ? screenWidth : imageSlider.width;
+    const sliderHeight = scaleItem ? (imageSlider.height / imageSlider.width) * screenWidth : imageSlider.height;
+
     const slides = [
         { url: img1, title: "Menu" },
         { url: img2, title: "Gameplay1" },
     ];
 
     const containerStyles = {
-        width: '1000px',
-        height: '520px',
+        width: sliderWidth + 'px',
+        height: sliderHeight + 'px',
         margin: '0 auto',
         marginBottom: '100px',
     }
@@ -21,7 +26,7 @@ export default function UglyUnicornPage() {
         <form className="main-page">
             <h2 className='main-headline'>Ugly Unicorn - Android Game</h2>
             <div style={containerStyles} >
-                <ImageSlider slides={slides} />
+                <SlideShow autoplay={false} slideImages={slides} imageHeight={sliderHeight + 'px'} />
             </div>
             <div className='margin-group'>
                 <h3 className='secondary-headline'>Info</h3>
@@ -33,9 +38,9 @@ export default function UglyUnicornPage() {
                 </div>
             </div>
             <div className='border-lines'>
-                    <p>Play the game for free in:</p>
+                <p>Play the game for free in:</p>
                 <a href="https://play.google.com/store/apps/details?id=com.RaatoGames.UglyUnicorn&pli=1" title='https://play.google.com/store/apps/details?id=com.RaatoGames.UglyUnicorn&pli=1'>Google Play Store</a>
-                </div>
+            </div>
             <h3 className='secondary-headline'>Gameplay</h3>
             <div className='youtube-video'>
                 <YoutubePlayer className='youtube-video' videoId={"OHVrjdrXkQ4"} />

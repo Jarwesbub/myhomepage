@@ -1,8 +1,21 @@
 .bar-main {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgba(27, 27, 36, 0.62);
-    
+    color: white;
 }
+
+.nav-dropdown {
+    
+
+
+}
+
+
+.listgroupitem{
+
+    background-color: black;
+}
+
 
 .footer-wrapper {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
