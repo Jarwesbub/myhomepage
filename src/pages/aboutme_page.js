@@ -2,58 +2,103 @@ import avatar from '../assets/images/myavatar.jpg';
 import './aboutme_page.css';
 
 export default function AboutMe() {
+    const widthLimit = 800;
+    const isMobileView = window.innerWidth < widthLimit;
+
     const platformStats = [
         "Unity = Good",
-        "Game Maker = Intermadiate",
+        "Git/GitHub = Intermediate",
+        "Game Maker = Intermediate",
         "React = Basics",
         "Flutter = Basics",
-        
-        "",
     ];
     const languageStats = [
-        "C# = Intermediate",
-        "C++ = Basics",
+        "C# = Good",
+        "JavaScript = Intermediate",
+        "C/C++ = Basics",
         "Java = Basics",
-        "JavaScript = Basics",
         "Dart = Basics",
     ];
 
-    const mySkillsTable = (
+    const skillsTableMobile = (
         <>
-            <table className='table-wrapper'>
+            <div>
+                <table className='table-group'>
+                    <tr>
+                        <th className='table-th-headline'>Platforms:</th>
+                    </tr>
+                    <tr>
+                        <th className='table-th'>{platformStats[0]}</th>
+                    </tr>
+                    <tr>
+                        <th className='table-th'>{platformStats[1]}</th>
+                    </tr>
+                    <tr>
+                        <th className='table-th'>{platformStats[2]}</th>
+                    </tr>
+                    <tr>
+                        <th className='table-th'>{platformStats[3]}</th>
+                    </tr>
+                    <tr>
+                        <th className='table-th'>{platformStats[4]}</th>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <table className='table-group'>
+                    <tr>
+                        <th className='table-th-headline'>Languages:</th>
+                    </tr>
+                    <tr>
+                        <th className='table-th'>{languageStats[0]}</th>
+                    </tr>
+                    <tr>
+                        <th className='table-th'>{languageStats[1]}</th>
+                    </tr>
+                    <tr>
+                        <th className='table-th'>{languageStats[2]}</th>
+                    </tr>
+                    <tr>
+                        <th className='table-th'>{languageStats[3]}</th>
+                    </tr>
+                    <tr>
+                        <th className='table-th'>{languageStats[4]}</th>
+                    </tr>
+                </table>
+            </div>
+        </>
+    );
+
+    const skillsTableDesktop = (
+        <>
+            <table className='table-group'>
                 <tr>
-                    <th>Platforms</th>
-                    <th>Languages</th>
+                    <th className='table-th-headline'>Platforms:</th>
+                    <th className='table-th-headline'>Languages:</th>
                 </tr>
                 <tr>
-                    <th>{platformStats[0]}</th>
-                    <th>{languageStats[0]}</th>
+                    <th className='table-th'>{platformStats[0]}</th>
+                    <th className='table-th'>{languageStats[0]}</th>
                 </tr>
                 <tr>
-                    <th>{platformStats[1]}</th>
-                    <th>{languageStats[1]}</th>
+                    <th className='table-th'>{platformStats[1]}</th>
+                    <th className='table-th'>{languageStats[1]}</th>
                 </tr>
                 <tr>
-                    <th>{platformStats[2]}</th>
-                    <th>{languageStats[2]}</th>
+                    <th className='table-th'>{platformStats[2]}</th>
+                    <th className='table-th'>{languageStats[2]}</th>
                 </tr>
                 <tr>
-                    <th>{platformStats[3]}</th>
-                    <th>{languageStats[3]}</th>
+                    <th className='table-th'>{platformStats[3]}</th>
+                    <th className='table-th'>{languageStats[3]}</th>
                 </tr>
                 <tr>
-                    <th>{platformStats[4]}</th>
-                    <th>{languageStats[4]}</th>
+                    <th className='table-th'>{platformStats[4]}</th>
+                    <th className='table-th'>{languageStats[4]}</th>
                 </tr>
             </table>
         </>
     );
-
-    const programmingInfo = "Currently studying ICT software development at Oulu University of applied science. I discovered my passion for programming and algorithmic thinking from my trainee work as a web store administrator few years ago. I've done quite many 2d- and 3d -game projects along the way in Unity platform and programming in C# scripting language is no problem. (I also know the basics of C++) With the high motivation and hunger for learning new things (with the spice of comedy) I can offer very hard working and chill mixture of an worker to any job environment!";
-    const salesmanInfo = "Earlier in my career I was a salesman in variety of companies. Most of my knowledge came from working as an door-to-door salesman in home security services and products in Sector Alarm -company. I also have few years of experience in customer service and cash work in various of companies.";
-    const retrogamesInfo = "Deep love with PS1 and PS2 -era gaming. Mainly collecting PS1 games and other related stuff.        ";
-    const cosplayInfo = "Over 10 years of sewing costumes and crafting experience. Some of them with customer projects. 'Weeb culture approved'";
-    const gymtrainingInfo = "Good balance for that all nerdy stuff";
 
     return (
         <form className="aboutme-page">
@@ -64,33 +109,42 @@ export default function AboutMe() {
             <h2 className='main-headline'>Jarno Liedes</h2>
             <div className='table-group'>
                 <h4 className='secondary-headline'>Skills</h4>
-                { mySkillsTable }
+                {isMobileView ? skillsTableMobile : skillsTableDesktop}
             </div>
             <div className='aboutme-group-wrapper'>
                 <div>
                     <h4>As a Programmer</h4>
-                    <p>{ programmingInfo }</p>
+                    <p>
+                        Currently studying ICT software development (second year) at Oulu University of applied science. I discovered my passion for programming and problem solving from my trainee work as a web store administrator few years ago. Since then I've done quite many 2d- and 3d -game projects along the way in Unity platform. What comes to the web development side I have done some single -and multipage apps as a school projects from back-end to front-end development.
+                    </p>
                 </div>
                 <div>
                     <h4>As a Salesman</h4>
-                    <p>{ salesmanInfo }</p>
+                    <p>
+                        Earlier in my career I was a salesman in variety of companies. Most of my knowledge came from working as an door-to-door salesman in home security services and products in Sector Alarm -company. I also have few years of experience in customer service and cash work in various of companies.
+                    </p>
                 </div>
             </div>
             <h3 className='secondary-headline'>Hobbies</h3>
             <div className='aboutme-group-wrapper'>
                 <div>
                     <h4>Retro games</h4>
-                    <p>{ retrogamesInfo }
-                        <a href="https://www.pricecharting.com/offers?seller=ippz42htk3bqfma6q3ghctkfcm&status=collection" title='pricecharting.com ' target="_blank" rel="noreferrer">(check out my collection)</a>
+                    <p>
+                        Deep love with PS1 and PS2 -era gaming. Mainly collecting PS1 games and other related stuff.
+                        <a href="https://www.pricecharting.com/offers?seller=ippz42htk3bqfma6q3ghctkfcm&status=collection" title='pricecharting.com ' target="_blank" rel="noreferrer"> (check out my collection)</a>
                     </p>
                 </div>
                 <div>
                     <h4>Cosplay</h4>
-                    <p>{cosplayInfo}</p>
+                    <p>
+                        Over 10 years of sewing costumes and crafting projects. Also a little bit of customer works.
+                    </p>
                 </div>
                 <div>
                     <h4>Gym training</h4>
-                    <p>{ gymtrainingInfo }</p>
+                    <p>
+                        Best place to let out some steam.
+                    </p>
                 </div>
             </div>
         </form>

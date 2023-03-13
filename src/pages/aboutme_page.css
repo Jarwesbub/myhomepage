@@ -14,17 +14,29 @@
 .secondary-headline {
     margin-top: 60px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
-.table-wrapper {
+.table-group {
     margin-left: auto;
     margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
     text-align: left;
 }
 
-.table-wrapper th {
+.table-th-headline {
+    font-size: 18px;
+    font-style: italic;
+    padding-bottom: 10px;
     padding-inline-start: 50px;
     padding-inline-end: 50px;
+}
+
+.table-th {
+    padding-inline-start: 50px;
+    padding-inline-end: 50px;
+    font-weight: normal;
 }
 
 .aboutme-group-wrapper {
