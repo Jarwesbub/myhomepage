@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myhomepage/static/css/main.ae686949.css",
-    "main.js": "/myhomepage/static/js/main.9462b6ef.js",
+    "main.js": "/myhomepage/static/js/main.b533ef70.js",
     "static/js/787.f5fbd4a6.chunk.js": "/myhomepage/static/js/787.f5fbd4a6.chunk.js",
     "static/media/redeckbuilding-smashup.png": "/myhomepage/static/media/redeckbuilding-smashup.dfad2f8cecec8df7356e.png",
     "static/media/image-2.png": "/myhomepage/static/media/image-2.86e7d14ff97b7a25ee52.png",
@@ -9,17 +9,26 @@
     "static/media/image-1.png": "/myhomepage/static/media/image-1.e415d0bb78aaadacec5d.png",
     "static/media/racinggame-smashup.png": "/myhomepage/static/media/racinggame-smashup.75209a8209d5f0469cdc.png",
     "static/media/tamram-smashup.png": "/myhomepage/static/media/tamram-smashup.def3acf6fe8f87ae9aca.png",
+    "static/media/softaustalo_ue2_editor_1.png": "/myhomepage/static/media/softaustalo_ue2_editor_1.a536baf51b3cb3dd8d76.png",
+    "static/media/softaustalo_ue2_editor_3.png": "/myhomepage/static/media/softaustalo_ue2_editor_3.60c741d8d01c1a2bf6dd.png",
     "static/media/image-1.jpg": "/myhomepage/static/media/image-1.4bd5f1b76a8e33e64c13.jpg",
     "static/media/uglyunicorn-smashup.png": "/myhomepage/static/media/uglyunicorn-smashup.54185896160f4cf6598a.png",
     "static/media/doggoinspace-smashup.png": "/myhomepage/static/media/doggoinspace-smashup.03d586747787659f36f8.png",
+    "static/media/softaustalo_ue2_gameplay_2.png": "/myhomepage/static/media/softaustalo_ue2_gameplay_2.7e00897fb523832aaaa5.png",
     "static/media/myavatar.jpg": "/myhomepage/static/media/myavatar.08d1a5421e31ff23085d.jpg",
+    "static/media/softaustalo_ue2_gameplay_4.png": "/myhomepage/static/media/softaustalo_ue2_gameplay_4.8eb60e3d37bfbf4063c2.png",
+    "static/media/softaustalo_ue2_gameplay_7.png": "/myhomepage/static/media/softaustalo_ue2_gameplay_7.8b76be470f4841753f7c.png",
+    "static/media/softaustalo_ue2_gameplay_5.png": "/myhomepage/static/media/softaustalo_ue2_gameplay_5.a9950d375215cafa7edc.png",
+    "static/media/softaustalo_ue2_gameplay_3.png": "/myhomepage/static/media/softaustalo_ue2_gameplay_3.64af6147bee5e4ce0b3f.png",
+    "static/media/softaustalo_ue2_gameplay_1.png": "/myhomepage/static/media/softaustalo_ue2_gameplay_1.856e26fa497ebe5aaef6.png",
+    "static/media/softaustalo_ue2_gameplay_6.png": "/myhomepage/static/media/softaustalo_ue2_gameplay_6.e734dc3aadb4db851b42.png",
     "index.html": "/myhomepage/index.html",
     "main.ae686949.css.map": "/myhomepage/static/css/main.ae686949.css.map",
-    "main.9462b6ef.js.map": "/myhomepage/static/js/main.9462b6ef.js.map",
+    "main.b533ef70.js.map": "/myhomepage/static/js/main.b533ef70.js.map",
     "787.f5fbd4a6.chunk.js.map": "/myhomepage/static/js/787.f5fbd4a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ae686949.css",
-    "static/js/main.9462b6ef.js"
+    "static/js/main.b533ef70.js"
   ]
 }
