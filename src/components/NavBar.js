@@ -15,6 +15,12 @@ export default function NavBar() {
     </>
   ];
 
+  const moddingProjects = [
+    <>
+      <ListGroup.Item action href={"#/xiii-softaustalo"}>XIII (2003) Map - Softaustalo</ListGroup.Item>
+    </>
+  ];
+
   const normalView = [
     <>
       <Navbar className="bar-main" variant='dark'>
@@ -34,6 +40,16 @@ export default function NavBar() {
               </NavDropdown>
             </Navbar.Collapse>
           </Nav>
+          <Nav>
+            <Navbar.Toggle aria-controls="navbar-normal" />
+            <Navbar.Collapse>
+              <NavDropdown title={"Game Modding"} style={isMobileView ? { color: 'black' } : { color: 'black' }}>
+                <ListGroup>
+                  {moddingProjects}
+                </ListGroup>
+              </NavDropdown>
+            </Navbar.Collapse>
+          </Nav>
         </Container>
       </Navbar>
     </>
@@ -49,7 +65,7 @@ export default function NavBar() {
           <Nav>
             <Navbar.Toggle aria-controls="navbar-normal" />
             <Navbar.Collapse>
-            <Nav.Link href={"#/aboutme"}>About Me</Nav.Link>
+              <Nav.Link href={"#/aboutme"}>About Me</Nav.Link>
               <NavDropdown title={"Game Projects (Unity)"} style={isMobileView ? { color: 'black' } : { color: 'black' }}>
                 <ListGroup>
                   {gameProjects}

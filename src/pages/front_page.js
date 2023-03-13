@@ -29,7 +29,7 @@ export default function FrontPage({imageSlider}) {
 
     return (
         <form className="main-page">
-            <h3 className='secondary-headline'>Projects Slideshow:</h3>
+            <h4 className='secondary-headline'>Some of My Projects:</h4>
             <div style={containerStyles} >
                 <SlideShow autoplay={false} slideImages={slides} imageHeight={sliderHeight+'px'} />
             </div>

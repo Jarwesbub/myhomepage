@@ -10,9 +10,10 @@ import UglyUnicorn from './pages/uglyunicorn_page';
 import RacingGame from './pages/racing_game_page';
 import Doggo from './pages/doggoinspace_page';
 import TamRam from './pages/tamram_page';
+import Softaustalo from './pages/softaustalo_page';
 
 const mashUpSlider = { width: 600, height: 600 }; // Front page
-const imageSlider = { width: 1000, height: 520 }; // Initial pages
+const imageSlider = { width: 960, height: 540 }; // Initial pages
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             <Route path={"/racinggame"} element={<RacingGame imageSlider={imageSlider} />} />
             <Route path={"/doggoinspace"} element={<Doggo imageSlider={imageSlider} />} />
             <Route path={"/tamram"} element={<TamRam imageSlider={imageSlider} />} />
+            <Route path={"/xiii-softaustalo"} element={<Softaustalo imageSlider={imageSlider} />} />
           </Route>
         </Routes>
       </Container>
