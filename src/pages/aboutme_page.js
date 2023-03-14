@@ -130,8 +130,8 @@ export default function AboutMe() {
                 <div>
                     <h4>Retro games</h4>
                     <p>
-                        Deep love with PS1 and PS2 -era gaming. Mainly collecting PS1 games and other related stuff.
-                        <a href="https://www.pricecharting.com/offers?seller=ippz42htk3bqfma6q3ghctkfcm&status=collection" title='pricecharting.com ' target="_blank" rel="noreferrer"> (check out my collection)</a>
+                        Deep love with PS1 and PS2 -era gaming. Mainly collecting PS1 games and other related stuff.&nbsp;
+                        <a href="https://www.pricecharting.com/offers?seller=ippz42htk3bqfma6q3ghctkfcm&status=collection" title='pricecharting.com ' target="_blank" rel="noreferrer">(check out my collection)</a>
                     </p>
                 </div>
                 <div>

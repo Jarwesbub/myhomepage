@@ -28,15 +28,19 @@ export default function RacingGamePage({ imageSlider }) {
             <div style={containerStyles} >
                 <SlideShow autoplay={false} slideImages={slides} imageHeight={sliderHeight + 'px'} />
             </div>
-            <div className='margin-group'>
                 <h3 className='secondary-headline'>Info</h3>
-                <div className='border-lines'>
+                <div className='border-lines' style={{marginBottom:'100px'}}>
                     <p>
                         3D racing game for Android and PC with Retro PlayStation 1 vibes
                     </p>
                     <p>Racing game (demo) which is mainly aimed for mobile environment with touchscreen control scheme. Game is made by using Unity engine and car models are self made in Blender.</p>
                 </div>
-            </div>
+            <div className='border-lines'style={{marginBottom:'100px'}}>
+                    <p>
+                        Check out more about this project in my&nbsp;
+                    </p>
+                    <a href="https://github.com/LemonSkull/PennyRacersClone" title='github.com' target="_blank" rel="noreferrer">GitHub repository</a>
+                    </div>
             <h3 className='secondary-headline'>Gameplay</h3>
             <div className='youtube-video'>
                 <YoutubePlayer className='youtube-video' videoId={"tdy9ZAxmlzs"} />

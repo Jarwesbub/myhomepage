@@ -28,19 +28,18 @@ export default function DoggoInSpacePage({ imageSlider }) {
             <div style={containerStyles} >
                 <SlideShow autoplay={false} slideImages={slides} imageHeight={sliderHeight + 'px'} />
             </div>
-            <div className='margin-group'>
-                <h3 className='secondary-headline'>Info</h3>
-                <div className='border-lines'>
-                    <p>
-                        Space exploration where your goal is to survive in earth's exosphere as long as possible
-                    </p>
-                    <p>Flappy bird styled gameplay with the spice of space elements. This is endless runner where your job is to keep going as long as possible. High score is based on time you spend in space without crashing.
-                        Project aimed for mobile devices and on "itch.io" (browser). Made in Unity.</p>
-                </div>
-                <div className='border-lines'>
-                    <p>Test the game on your browser:</p>
-                    <a href="https://jarwes.itch.io/doggoinspace2" title='itch.io'>Play now</a>
-                </div>
+            <h3 className='secondary-headline'>Info</h3>
+            <div className='border-lines' style={{ marginBottom: '100px' }}>
+                <p>
+                    Space exploration where your goal is to survive in earth's exosphere as long as possible
+                </p>
+                <p>Flappy bird styled gameplay with the spice of space elements. This is endless runner where your job is to keep going as long as possible. High score is based on time you spend in space without crashing.
+                    Project aimed for mobile devices and on "itch.io" (browser). Made in Unity.
+                </p>
+            </div>
+            <div className='border-lines' style={{ marginBottom: '100px' }}>
+                <p>Test the game on your browser:</p>
+                <a href="https://jarwes.itch.io/doggoinspace2" title='itch.io'>Play now</a>
             </div>
             <h3 className='secondary-headline'>Gameplay</h3>
             <div className='youtube-video'>

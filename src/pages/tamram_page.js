@@ -30,21 +30,18 @@ export default function TamRamPage({ imageSlider }) {
             <div style={containerStyles} >
                 <SlideShow autoplay={false} slideImages={slides} imageHeight={sliderHeight + 'px'} />
             </div>
-            <div className='margin-group'>
-                <h3 className='secondary-headline'>Info</h3>
-                <div className='border-lines'>
-                    <p>
-                        Tame your creature and fight your way to become the strongest
-                    </p>
-                    <p>Game where your job is to become the strongest creature of the islands. You can choose your character from 3 different classes. (Warrior, Rogue and Wizard) Every class has their unique abilities, strengths and weaknesses that may put you in advantage or disadvantage against certain enemies.
-                        Use your skillpoints wisely on your creature and get prepared to fight the evils in Lava-Land!
-
-                        Project aimed for browser and PC. Made in Unity.</p>
-                </div>
-                <div className='border-lines'>
-                    <p>Test the game on your browser:</p>
-                    <a href="https://jarwes.itch.io/tamram" title='itch.io'>Play now</a>
-                </div>
+            <h3 className='secondary-headline'>Info</h3>
+            <div className='border-lines' style={{ marginBottom: '100px' }}>
+                <p>
+                    Tame your creature and fight your way to become the strongest
+                </p>
+                <p>Game where your job is to become the strongest creature of the islands. You can choose your character from 3 different classes. (Warrior, Rogue and Wizard) Every class has their unique abilities, strengths and weaknesses that may put you in advantage or disadvantage against certain enemies.
+                    Use your skillpoints wisely on your creature and get prepared to fight the evils in Lava-Land!
+                    Project aimed for the web browser and PC.</p>
+            </div>
+            <div className='border-lines' style={{ marginBottom: '100px' }}>
+                <p>Test the game on your browser:</p>
+                <a href="https://jarwes.itch.io/tamram" title='itch.io'>Play now</a>
             </div>
             <h3 className='secondary-headline'>Gameplay</h3>
             <div className='youtube-video'>
