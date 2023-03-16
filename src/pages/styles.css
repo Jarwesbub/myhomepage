@@ -15,7 +15,14 @@
 }
 
 .border-lines {
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    border-style: outset;
+    border-color: rgba(0, 0, 0, 0.096);
+}
 
+.border-lines-1080 {
     max-width: 1080px;
     text-align: center;
     margin: auto;

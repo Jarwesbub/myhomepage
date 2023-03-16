@@ -29,13 +29,13 @@ export default function UglyUnicornPage({ imageSlider }) {
                 <SlideShow autoplay={false} slideImages={slides} imageHeight={sliderHeight + 'px'} />
             </div>
                 <h3 className='secondary-headline'>Info</h3>
-                <div className='border-lines' style={{ marginBottom: '100px' }}>
+                <div className='border-lines-1080' style={{ marginBottom: '100px' }}>
                     <p>
                         2D Endless Runner -style game with increasing speed and rhythmic vibes
                     </p>
                     <p>"Ugly Unicorn is quirky endless runner -style game (demo), where the player tries to evade a dragon by collecting points to gather more speed."</p>
                 </div>
-            <div className='border-lines' style={{ marginBottom: '100px' }}>
+            <div className='border-lines-1080' style={{ marginBottom: '100px' }}>
                 <p>Play the game for free in:</p>
                 <a href="https://play.google.com/store/apps/details?id=com.RaatoGames.UglyUnicorn&pli=1" title='https://play.google.com/store/apps/details?id=com.RaatoGames.UglyUnicorn&pli=1'>Google Play Store</a>
             </div>

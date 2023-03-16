@@ -24,18 +24,18 @@ export default function RacingGamePage({ imageSlider }) {
 
     return (
         <form className="main-page">
-            <h2 className='main-headline'>Racing Game - Android</h2>
+            <h2 className='main-headline'>Racing Game - Demo</h2>
             <div style={containerStyles} >
                 <SlideShow autoplay={false} slideImages={slides} imageHeight={sliderHeight + 'px'} />
             </div>
                 <h3 className='secondary-headline'>Info</h3>
-                <div className='border-lines' style={{marginBottom:'100px'}}>
+                <div className='border-lines-1080' style={{marginBottom:'100px'}}>
                     <p>
                         3D racing game for Android and PC with Retro PlayStation 1 vibes
                     </p>
                     <p>Racing game (demo) which is mainly aimed for mobile environment with touchscreen control scheme. Game is made by using Unity engine and car models are self made in Blender.</p>
                 </div>
-            <div className='border-lines'style={{marginBottom:'100px'}}>
+            <div className='border-lines-1080'style={{marginBottom:'100px'}}>
                     <p>
                         Check out more about this project in my&nbsp;
                     </p>

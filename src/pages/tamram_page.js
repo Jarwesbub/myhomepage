@@ -31,7 +31,7 @@ export default function TamRamPage({ imageSlider }) {
                 <SlideShow autoplay={false} slideImages={slides} imageHeight={sliderHeight + 'px'} />
             </div>
             <h3 className='secondary-headline'>Info</h3>
-            <div className='border-lines' style={{ marginBottom: '100px' }}>
+            <div className='border-lines-1080' style={{ marginBottom: '100px' }}>
                 <p>
                     Tame your creature and fight your way to become the strongest
                 </p>
@@ -39,7 +39,7 @@ export default function TamRamPage({ imageSlider }) {
                     Use your skillpoints wisely on your creature and get prepared to fight the evils in Lava-Land!
                     Project aimed for the web browser and PC.</p>
             </div>
-            <div className='border-lines' style={{ marginBottom: '100px' }}>
+            <div className='border-lines-1080' style={{ marginBottom: '100px' }}>
                 <p>Test the game on your browser:</p>
                 <a href="https://jarwes.itch.io/tamram" title='itch.io'>Play now</a>
             </div>

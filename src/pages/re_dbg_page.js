@@ -30,12 +30,12 @@ export default function ReDeckBuilingGame({ imageSlider }) {
                 <SlideShow autoplay={false} slideImages={slides} imageHeight={sliderHeight + 'px'} />
             </div>
                 <h3 className='secondary-headline'>Info</h3>
-                <div className='border-lines' style={{marginBottom:'100px'}}>
+                <div className='border-lines-1080' style={{marginBottom:'100px'}}>
                     <p>
-                        When one of your favorite board games has been discontinued for over 10 years and aftermarket is almost nonexistent. What to do when you want to play it with friends? Make your own version of it of course! This fan project is made for long discontinued boardgame: “Resident Evil -Deck Building Game” but with fully functional online play. Demo uses already existing cards from the game and combines the original board game concept with online play. Game runs on Unity’s latest engine and can hold up to 20 players in one game session. Game mechanics resemble the popular Table Top Simulator -game which provides authentic feel of your late night board gaming with friends. Ofcourse try not to cheat on the game. You may get kicked out of the club!
+                        When one of your favorite board games has been discontinued for over 10 years and aftermarket is almost nonexistent. What to do when you want to play it with friends? Make your own version of it of course! This fan project is made for long discontinued board game: “Resident Evil -Deck Building Game” but with fully functional online play. Demo uses already existing cards from the game and combines the original board game concept with online play. Game runs on Unity’s latest engine and can hold up to 20 players in one game session. Game mechanics resemble the popular Table Top Simulator -game which provides authentic feel of your late night board gaming with friends. Ofcourse try not to cheat on the game. You may get kicked out of the club!
                     </p>
             </div>
-            <div className='border-lines' style={{marginBottom:'100px'}}>
+            <div className='border-lines-1080' style={{marginBottom:'100px'}}>
                     <p>
                         Check out more about this project in my
                     </p>

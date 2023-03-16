@@ -45,7 +45,7 @@ export default function Softaustalo({ imageSlider }) {
             </div>
             <div className='margin-group'>
                 <h3 className='secondary-headline'>Info</h3>
-                <div className='border-lines'>
+                <div className='border-lines-1080'>
                     <p>
                     Map for the classic PC/console game&nbsp;<a href="https://en.wikipedia.org/wiki/XIII_(2003_video_game)" title='wikipedia.org' target="_blank" rel="noreferrer">XIII (2003)</a>
                         , created in Unreal Editor 2 by me. Project was quite the challenge to make thanks to the heavily outdated engine and game itself. Nowadays polygon count in 3D environment don’t matter as much as it did back in the days. It's amazing how dynamic lighting in Unreal Engine 2 really made games standout.
