@@ -48,8 +48,8 @@ export default function Softaustalo({ imageSlider }) {
                 <div className='border-lines-1080'>
                     <p>
                     Map for the classic PC/console game&nbsp;<a href="https://en.wikipedia.org/wiki/XIII_(2003_video_game)" title='wikipedia.org' target="_blank" rel="noreferrer">XIII (2003)</a>
-                        , created in Unreal Editor 2 by me. Project was quite the challenge to make thanks to the heavily outdated engine and game itself. Nowadays polygon count in 3D environment don’t matter as much as it did back in the days. It's amazing how dynamic lighting in Unreal Engine 2 really made games standout.
-                        Map also supports full online play with max of 16 players with fan-made servers.
+                        , created in Unreal Editor 2 by me. Project was quite a challenge to make thanks to the heavily outdated engine and game itself. Nowadays polygon count in 3D environment don’t matter as much as it did back in the days. It's amazing how dynamic lighting in Unreal Engine 2 really made games standout.
+                        Map also supports full online play with max of 16 players in fanmade servers.
                     </p>
                     <p><br></br>More stuff coming soon!</p>
                 </div>
