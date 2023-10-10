@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myhomepage/static/css/main.581685dd.css",
-    "main.js": "/myhomepage/static/js/main.e4c464cd.js",
+    "main.js": "/myhomepage/static/js/main.4b022269.js",
     "static/js/787.f5fbd4a6.chunk.js": "/myhomepage/static/js/787.f5fbd4a6.chunk.js",
     "static/media/redeckbuilding-smashup.png": "/myhomepage/static/media/redeckbuilding-smashup.dfad2f8cecec8df7356e.png",
     "static/media/image-2.png": "/myhomepage/static/media/image-2.86e7d14ff97b7a25ee52.png",
@@ -24,11 +24,11 @@
     "static/media/softaustalo_ue2_gameplay_6.png": "/myhomepage/static/media/softaustalo_ue2_gameplay_6.e734dc3aadb4db851b42.png",
     "index.html": "/myhomepage/index.html",
     "main.581685dd.css.map": "/myhomepage/static/css/main.581685dd.css.map",
-    "main.e4c464cd.js.map": "/myhomepage/static/js/main.e4c464cd.js.map",
+    "main.4b022269.js.map": "/myhomepage/static/js/main.4b022269.js.map",
     "787.f5fbd4a6.chunk.js.map": "/myhomepage/static/js/787.f5fbd4a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.581685dd.css",
-    "static/js/main.e4c464cd.js"
+    "static/js/main.4b022269.js"
   ]
 }
