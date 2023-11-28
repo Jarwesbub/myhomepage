@@ -10,6 +10,13 @@ export default function UglyUnicornPage({ imageSlider }) {
     const sliderWidth = scaleItem ? screenWidth : imageSlider.width;
     const sliderHeight = scaleItem ? (imageSlider.height / imageSlider.width) * screenWidth : imageSlider.height;
 
+    // Scrolls window instantly to the top
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'instant',
+      });
+
     const slides = [
         { url: img1, title: "Menu" },
         { url: img2, title: "Gameplay1" },

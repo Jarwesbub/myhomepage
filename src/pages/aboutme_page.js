@@ -5,6 +5,13 @@ export default function AboutMe() {
     const widthLimit = 800;
     const isMobileView = window.innerWidth < widthLimit;
 
+    // Scrolls window instantly to the top
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'instant',
+      });
+
     const platformStats = [
         "Unity = Good",
         "Git/GitHub = Intermediate",

@@ -10,6 +10,13 @@ export default function FrontPage() {
     const linkImageSize = '42%'
     const padding = '0.5%'
 
+    // Scrolls window instantly to the top
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'instant',
+      });
+
     function createLinkImages() {
         function ImageModel(img, name, link) {
             this.img = img
