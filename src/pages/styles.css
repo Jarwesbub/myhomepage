@@ -4,6 +4,14 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.main-page h3 {
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    border-style: outset;
+    border-color: rgba(0, 0, 0, 0.096);
+}
+
 .main-headline {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -12,14 +20,6 @@
 .secondary-headline {
     margin-top: 20px;
     margin-bottom: 20px;
-}
-
-.border-lines {
-    text-align: center;
-    margin: auto;
-    padding: 20px;
-    border-style: outset;
-    border-color: rgba(0, 0, 0, 0.096);
 }
 
 .border-lines-1080 {

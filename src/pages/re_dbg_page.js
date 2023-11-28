@@ -29,7 +29,7 @@ export default function ReDeckBuilingGame({ imageSlider }) {
         <p>
             Check out more about this project in my
         </p>
-        <a href="https://github.com/LemonSkull/RE-DeckBuildingGame" title='github.com' target="_blank" rel="noreferrer">GitHub repository</a>
+        <a href="https://github.com/Jarwesbub/RE-DeckBuildingGame" title='github.com' target="_blank" rel="noreferrer">GitHub repository</a>
         </div>
         </>
     ]

@@ -12,7 +12,6 @@ import Doggo from './pages/doggoinspace_page';
 import TamRam from './pages/tamram_page';
 import Softaustalo from './pages/softaustalo_page';
 
-const mashUpSlider = { width: 600, height: 600 }; // Front page
 const imageSlider = { width: 960, height: 540 }; // Initial pages
 
 function App() {
@@ -22,7 +21,7 @@ function App() {
         <NavBar />
         <Routes>
           <Route className="page-routes">
-            <Route path={"/"} element={<FrontPage imageSlider={mashUpSlider} />} />
+            <Route path={"/"} element={<FrontPage  />} />
             <Route path={"/aboutme"} element={<AboutMe />} />
             <Route path={"/residentevildbg"} element={<ReDbg imageSlider={imageSlider} />} />
             <Route path={"/uglyunicorn"} element={<UglyUnicorn imageSlider={imageSlider} />} />
