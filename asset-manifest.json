@@ -1,34 +1,35 @@
 {
   "files": {
-    "main.css": "/myhomepage/static/css/main.581685dd.css",
-    "main.js": "/myhomepage/static/js/main.4b022269.js",
+    "main.css": "/myhomepage/static/css/main.df3463bf.css",
+    "main.js": "/myhomepage/static/js/main.d83d5991.js",
     "static/js/787.f5fbd4a6.chunk.js": "/myhomepage/static/js/787.f5fbd4a6.chunk.js",
-    "static/media/redeckbuilding-smashup.png": "/myhomepage/static/media/redeckbuilding-smashup.dfad2f8cecec8df7356e.png",
     "static/media/image-2.png": "/myhomepage/static/media/image-2.86e7d14ff97b7a25ee52.png",
     "static/media/image-3.png": "/myhomepage/static/media/image-3.db7cf50c8f3e9a30b4a1.png",
     "static/media/image-1.png": "/myhomepage/static/media/image-1.e415d0bb78aaadacec5d.png",
-    "static/media/racinggame-smashup.png": "/myhomepage/static/media/racinggame-smashup.75209a8209d5f0469cdc.png",
-    "static/media/tamram-smashup.png": "/myhomepage/static/media/tamram-smashup.def3acf6fe8f87ae9aca.png",
+    "static/media/racinggame_feature_720p.png": "/myhomepage/static/media/racinggame_feature_720p.0e1c726b5cd26c52a0ef.png",
+    "static/media/uglyunicorn_feature_720p.png": "/myhomepage/static/media/uglyunicorn_feature_720p.cbe65df3e89c969d5a82.png",
     "static/media/softaustalo_ue2_editor_1.png": "/myhomepage/static/media/softaustalo_ue2_editor_1.a536baf51b3cb3dd8d76.png",
     "static/media/softaustalo_ue2_editor_3.png": "/myhomepage/static/media/softaustalo_ue2_editor_3.60c741d8d01c1a2bf6dd.png",
+    "static/media/doggoinspace_feature_720p.png": "/myhomepage/static/media/doggoinspace_feature_720p.debb4a60e23b7cab6cd7.png",
     "static/media/image-1.jpg": "/myhomepage/static/media/image-1.4bd5f1b76a8e33e64c13.jpg",
-    "static/media/uglyunicorn-smashup.png": "/myhomepage/static/media/uglyunicorn-smashup.54185896160f4cf6598a.png",
-    "static/media/doggoinspace-smashup.png": "/myhomepage/static/media/doggoinspace-smashup.03d586747787659f36f8.png",
     "static/media/softaustalo_ue2_gameplay_2.png": "/myhomepage/static/media/softaustalo_ue2_gameplay_2.7e00897fb523832aaaa5.png",
-    "static/media/myavatar.jpg": "/myhomepage/static/media/myavatar.08d1a5421e31ff23085d.jpg",
+    "static/media/softaustalo_feature_720p.png": "/myhomepage/static/media/softaustalo_feature_720p.1e852e4d42d0865be25d.png",
     "static/media/softaustalo_ue2_gameplay_4.png": "/myhomepage/static/media/softaustalo_ue2_gameplay_4.8eb60e3d37bfbf4063c2.png",
     "static/media/softaustalo_ue2_gameplay_7.png": "/myhomepage/static/media/softaustalo_ue2_gameplay_7.8b76be470f4841753f7c.png",
     "static/media/softaustalo_ue2_gameplay_5.png": "/myhomepage/static/media/softaustalo_ue2_gameplay_5.a9950d375215cafa7edc.png",
     "static/media/softaustalo_ue2_gameplay_3.png": "/myhomepage/static/media/softaustalo_ue2_gameplay_3.64af6147bee5e4ce0b3f.png",
     "static/media/softaustalo_ue2_gameplay_1.png": "/myhomepage/static/media/softaustalo_ue2_gameplay_1.856e26fa497ebe5aaef6.png",
     "static/media/softaustalo_ue2_gameplay_6.png": "/myhomepage/static/media/softaustalo_ue2_gameplay_6.e734dc3aadb4db851b42.png",
+    "static/media/tamram_feature_720p.png": "/myhomepage/static/media/tamram_feature_720p.f574f6df3af00fddeb26.png",
+    "static/media/redbg_feature_720p.png": "/myhomepage/static/media/redbg_feature_720p.dae1494a6e8428d59166.png",
+    "static/media/myavatar.jpg": "/myhomepage/static/media/myavatar.03a9efcf79235ce1dbf0.jpg",
     "index.html": "/myhomepage/index.html",
-    "main.581685dd.css.map": "/myhomepage/static/css/main.581685dd.css.map",
-    "main.4b022269.js.map": "/myhomepage/static/js/main.4b022269.js.map",
+    "main.df3463bf.css.map": "/myhomepage/static/css/main.df3463bf.css.map",
+    "main.d83d5991.js.map": "/myhomepage/static/js/main.d83d5991.js.map",
     "787.f5fbd4a6.chunk.js.map": "/myhomepage/static/js/787.f5fbd4a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.581685dd.css",
-    "static/js/main.4b022269.js"
+    "static/css/main.df3463bf.css",
+    "static/js/main.d83d5991.js"
   ]
 }
