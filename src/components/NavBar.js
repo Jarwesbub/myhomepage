@@ -1,8 +1,8 @@
 import { Container, Navbar, Nav, NavDropdown, ListGroup, NavItem } from "react-bootstrap";
 import './navbar_footer.css';
 
-export default function NavBar() {
-  const widthLimit = 800;
+export default function NavBar(props) {
+  const widthLimit = 1000; // 800
   const isMobileView = window.innerWidth < widthLimit;
 
   const gameProjects = [

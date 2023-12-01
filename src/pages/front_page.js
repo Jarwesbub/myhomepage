@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import './styles.css';
 import imgREDBG from '../assets/images/features/redbg_feature_720p.png';
 import imgUglyUnicorn from '../assets/images/features/uglyunicorn_feature_720p.png';
@@ -6,22 +7,36 @@ import imgDoggoInSpace from '../assets/images/features/doggoinspace_feature_720p
 import imgTamRam from '../assets/images/features/tamram_feature_720p.png';
 import imgSoftaustalo from '../assets/images/features/softaustalo_feature_720p.png';
 
-export default function FrontPage() {
-    const linkImageSize = '42%'
-    const padding = '0.5%'
+export default function FrontPage(props) {
+    const [isMobileView, setMobileView] = useState(window.innerWidth < props.widthLimit)
+    const dualImageSize = '46%'
+    const singleImageSize = '86%'
+
+    useEffect(() => {
+        const updateMobileView = () => {
+            setMobileView(window.innerWidth < props.widthLimit)
+        }
+        window.addEventListener('resize', updateMobileView);
+
+        return () => {
+            window.removeEventListener('resize', updateMobileView);
+        }
+    }, [setMobileView])
 
     // Scrolls window instantly to the top
     window.scrollTo({
         top: 0,
         left: 0,
         behavior: 'instant',
-      });
+    });
 
     function createLinkImages() {
-        function ImageModel(img, name, link) {
-            this.img = img
-            this.name = name
-            this.link = link
+        class ImageModel {
+            constructor(img, name, link) {
+                this.img = img;
+                this.name = name;
+                this.link = link;
+            }
         }
         const imgModel1 = new ImageModel(
             imgREDBG,
@@ -53,46 +68,26 @@ export default function FrontPage() {
             'Softaustalo - Unreal Engine 2 Editor',
             '#/xiii-softaustalo'
         )
+        let linkImageSize = dualImageSize
+        if (isMobileView) { linkImageSize = singleImageSize }
 
         return [
-            linkImagesInRow(imgModel1, imgModel2),
-            linkImagesInRow(imgModel3, imgModel4),
-            linkImagesInRow(imgModel5, imgModel6)
+            singleLinkImages(imgModel1, linkImageSize),
+            singleLinkImages(imgModel2, linkImageSize),
+            singleLinkImages(imgModel3, linkImageSize),
+            singleLinkImages(imgModel4, linkImageSize),
+            singleLinkImages(imgModel5, linkImageSize),
+            singleLinkImages(imgModel6, linkImageSize),
+
         ]
-    }
 
-    function linkImagesInRow(imgModel1, imgModel2) {
-        const linkColumn = function () {
-            if (imgModel2 === undefined) return (<>
-                <column style={{ padding: padding }}>
-                    <a href={imgModel1.link}>
-                        <img src={imgModel1.img} alt={imgModel1.name} width={linkImageSize} height={linkImageSize} />
-                    </a>
-                </column>
-            </>)
-            else return (<>
-                <column style={{ padding: padding}}>
-                    <a href={imgModel1.link}>
-                        <img src={imgModel1.img} alt={imgModel1.name} width={linkImageSize} height={linkImageSize} />
-                    </a>
-                </column>
-                <column style={{ padding: padding}}>
-                    <a href={imgModel2.link}>
-                        <img src={imgModel2.img} alt={imgModel2.name} width={linkImageSize} height={linkImageSize} />
-                    </a>
-                </column>
-            </>)
+        function singleLinkImages(imgModel, size) {
+            return (<>
+                <a href={imgModel.link}>
+                    <img src={imgModel.img} alt={imgModel.name} width={size} height={size} />
+                </a>
+            </>);
         }
-
-        return ([
-            <>
-                <div style={{ padding: padding, maxWidth:'98%', margin: 'auto' }}>
-                    <row >
-                        {linkColumn()}
-                    </row>
-                </div>
-            </>
-        ]);
     }
 
     return (

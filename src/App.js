@@ -12,23 +12,24 @@ import Doggo from './pages/doggoinspace_page';
 import TamRam from './pages/tamram_page';
 import Softaustalo from './pages/softaustalo_page';
 
-const imageSlider = { width: 960, height: 540 }; // Initial pages
+const widthLimit = 1000
+const imageSliderSize = { width: 960, height: 540 }; // Initial pages
 
 function App() {
   return (
     <div className="App">
       <Container className="App-container" fluid>
-        <NavBar />
+        <NavBar widthLimit={widthLimit}/>
         <Routes>
           <Route className="page-routes">
-            <Route path={"/"} element={<FrontPage  />} />
+            <Route path={"/"} element={<FrontPage widthLimit={widthLimit} />} />
             <Route path={"/aboutme"} element={<AboutMe />} />
-            <Route path={"/residentevildbg"} element={<ReDbg imageSlider={imageSlider} />} />
-            <Route path={"/uglyunicorn"} element={<UglyUnicorn imageSlider={imageSlider} />} />
-            <Route path={"/racinggame"} element={<RacingGame imageSlider={imageSlider} />} />
-            <Route path={"/doggoinspace"} element={<Doggo imageSlider={imageSlider} />} />
-            <Route path={"/tamram"} element={<TamRam imageSlider={imageSlider} />} />
-            <Route path={"/xiii-softaustalo"} element={<Softaustalo imageSlider={imageSlider} />} />
+            <Route path={"/residentevildbg"} element={<ReDbg imageSlider={imageSliderSize} />} />
+            <Route path={"/uglyunicorn"} element={<UglyUnicorn imageSlider={imageSliderSize} />} />
+            <Route path={"/racinggame"} element={<RacingGame imageSlider={imageSliderSize} />} />
+            <Route path={"/doggoinspace"} element={<Doggo imageSlider={imageSliderSize} />} />
+            <Route path={"/tamram"} element={<TamRam imageSlider={imageSliderSize} />} />
+            <Route path={"/xiii-softaustalo"} element={<Softaustalo imageSlider={imageSliderSize} />} />
           </Route>
         </Routes>
       </Container>
