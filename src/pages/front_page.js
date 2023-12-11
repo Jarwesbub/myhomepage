@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import './styles.css';
+import avatar from '../assets/images/myavatar.jpg';
 import imgREDBG from '../assets/images/features/redbg_feature_720p.png';
 import imgUglyUnicorn from '../assets/images/features/uglyunicorn_feature_720p.png';
 import imgRacingGame from '../assets/images/features/racinggame_feature_720p.png';
@@ -91,8 +92,20 @@ export default function FrontPage(props) {
     }
 
     return (
-        <form className="main-page">
-            <h3>My Projects</h3>
+        <form className="front_page">
+            <div id="avatar-info">
+            <div id="avatar-image">
+                <a href="https://github.com/Jarwesbub">
+                    <img src={avatar} width="100" height="100" alt='avatar' style={{ borderRadius: '50%' }} />
+                    </a>
+                </div>
+                <div id="avatar-text">
+                    <p>Hi, my name is Jarno and welcome to my portfolio page! This site contains some of my various game and programming projects.
+                        You can check my GitHub profile and all of my public projects&nbsp;
+                        <a href="https://github.com/Jarwesbub" title='https://github.com/Jarwesbub' target="_blank" rel="noreferrer">here.</a>
+                    </p>
+                </div>
+            </div>
             {createLinkImages()}
         </form>
     );

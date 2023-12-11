@@ -1,7 +1,40 @@
+.front_page {
+    margin-top: 60px;
+    margin-bottom: 120px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.front_page h3 {
+    text-align: center;
+    margin: auto;
+
+}
+
+.front_page #avatar-info {
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 5%;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+    max-width: 1300px;
+}
+
+.front_page #avatar-image {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.front_page #avatar-text {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
 .main-page {
     margin-top: 30px;
     margin-bottom: 120px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .main-page h3 {

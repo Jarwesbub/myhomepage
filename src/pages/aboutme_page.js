@@ -10,7 +10,7 @@ export default function AboutMe() {
         top: 0,
         left: 0,
         behavior: 'instant',
-      });
+    });
 
     const platformStats = [
         "Unity = Good",
@@ -111,9 +111,13 @@ export default function AboutMe() {
         <form className="aboutme-page">
             <h2 className='main-headline'>About Me</h2>
             <div className="avatar">
-                <img src={avatar} width="250" height="250" alt='avatar' style={{ borderRadius: '50%' }} />
+                <a href="https://github.com/Jarwesbub">
+                    <img src={avatar} width="250" height="250" alt='avatar' style={{ borderRadius: '50%' }} />
+                </a>
             </div>
             <h2 className='main-headline'>Jarno Liedes</h2>
+            <p>Information and Communication Technology - Bachelor of Engineering - Software Developer</p>
+            <p>Unity Hobbyist</p>
             <div className='table-group'>
                 <h4 className='secondary-headline'>Skills</h4>
                 {isMobileView ? skillsTableMobile : skillsTableDesktop}
@@ -122,7 +126,7 @@ export default function AboutMe() {
                 <div>
                     <h4>As a Programmer</h4>
                     <p>
-                        Currently studying ICT software development (second year) at Oulu University of applied science. I discovered my passion for programming and problem solving from my trainee work as a web store administrator few years ago. Since then I've done quite many 2d- and 3d -game projects along the way in Unity platform. What comes to the web development side I have done some single -and multipage apps as a school projects from back-end to front-end development.
+                        Currently studying ICT software development (third year) at Oulu University of Applied Sciences. I discovered my passion for programming and problem solving from my trainee work as a web store administrator few years ago. Since then I've done quite many 2d- and 3d -game projects along the way in Unity platform. What comes to the web development side I have done some single -and multipage apps as a school projects from back-end to front-end development.
                     </p>
                 </div>
                 <div>

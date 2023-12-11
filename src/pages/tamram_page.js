@@ -35,7 +35,7 @@ export default function TamRamPage({ imageSlider }) {
         <form className="main-page">
             <h2 className='main-headline'>TamRam - Battle Creatures</h2>
             <div style={containerStyles} >
-                <SlideShow autoplay={false} slideImages={slides} imageHeight={sliderHeight + 'px'} />
+                <SlideShow autoplay={true} slideImages={slides} imageHeight={sliderHeight + 'px'} />
             </div>
             <h3 className='secondary-headline'>Info</h3>
             <div className='border-lines-1080' style={{ marginBottom: '100px' }}>

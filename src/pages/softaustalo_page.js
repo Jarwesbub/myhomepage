@@ -48,7 +48,7 @@ export default function Softaustalo({ imageSlider }) {
         <form className="main-page">
             <h2 className='main-headline'>XIII (2003) - Unreal Editor 2 - Softaustalo</h2>
             <div style={containerStyles} >
-                <SlideShow autoplay={false} slideImages={slides} imageHeight={sliderHeight + 'px'} />
+                <SlideShow autoplay={true} slideImages={slides} imageHeight={sliderHeight + 'px'} />
             </div>
             <div className='margin-group'>
                 <h3 className='secondary-headline'>Info</h3>

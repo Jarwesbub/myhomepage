@@ -22,7 +22,7 @@ export default function Slideshow(props) {
     }
     return (
         <div className="slide-container" >
-            <Slide autoplay={props.autoplay} transitionDuration={props.autoplay ? 1000 : 600} arrows={true} indicators={true} >
+            <Slide autoplay={props.autoplay} transitionDuration={props.autoplay ? 1000 : 600} arrows={false} indicators={true} >
                 {props.slideImages.map((slideImage, index) => (
                     <div key={index}>
                         <div style={{ ...divStyle, 'backgroundImage': `url(${slideImage.url})` }}>
