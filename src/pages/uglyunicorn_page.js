@@ -16,7 +16,7 @@ export default function UglyUnicornPage({ imageSlider }) {
         top: 0,
         left: 0,
         behavior: 'instant',
-      });
+    });
 
     const slides = [
         { url: img1, title: "Menu" },
@@ -38,13 +38,16 @@ export default function UglyUnicornPage({ imageSlider }) {
             <div style={containerStyles} >
                 <SlideShow autoplay={true} slideImages={slides} imageHeight={sliderHeight + 'px'} />
             </div>
-                <h3 className='secondary-headline'>Info</h3>
-                <div className='border-lines-1080' style={{ marginBottom: '100px' }}>
-                    <p>
-                        2D Endless Runner -style game with increasing speed and rhythmic vibes
-                    </p>
-                    <p>"Ugly Unicorn is quirky endless runner -style game (demo), where the player tries to evade a dragon by collecting points to gather more speed."</p>
-                </div>
+            <h3 className='secondary-headline'>Info</h3>
+            <div className='border-lines-1080' style={{ marginBottom: '100px' }}>
+                <p>
+                    2D Endless Runner -style game with increasing speed and rhythmic vibes
+                </p>
+                <p>"Ugly Unicorn is quirky endless runner -style game (demo), where the player tries to evade a dragon by collecting points to gather more speed."</p>
+                <p>Project visible in&nbsp;
+                <a href="https://github.com/Jarwesbub/UglyUnicorn" title='https://github.com/Jarwesbub/UglyUnicorn'>GitHub</a>
+                </p>
+            </div>
             <div className='border-lines-1080' style={{ marginBottom: '100px' }}>
                 <p>Play the game for free in:</p>
                 <a href="https://play.google.com/store/apps/details?id=com.RaatoGames.UglyUnicorn&pli=1" title='https://play.google.com/store/apps/details?id=com.RaatoGames.UglyUnicorn&pli=1'>Google Play Store</a>
