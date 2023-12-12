@@ -11,6 +11,7 @@ import RacingGame from './pages/racing_game_page';
 import Doggo from './pages/doggoinspace_page';
 import TamRam from './pages/tamram_page';
 import Softaustalo from './pages/softaustalo_page';
+import SuperBubble from './pages/super_bubble_page';
 
 const widthLimit = 1000
 const imageSliderSize = { width: 960, height: 540 }; // Initial pages
@@ -30,6 +31,7 @@ function App() {
             <Route path={"/doggoinspace"} element={<Doggo imageSlider={imageSliderSize} />} />
             <Route path={"/tamram"} element={<TamRam imageSlider={imageSliderSize} />} />
             <Route path={"/xiii-softaustalo"} element={<Softaustalo imageSlider={imageSliderSize} />} />
+            <Route path={"/superbubble"} element={<SuperBubble imageSlider={imageSliderSize} />} />
           </Route>
         </Routes>
       </Container>

@@ -18,6 +18,7 @@ export default function NavBar(props) {
   const otherGameProjects = [
     <>
       <ListGroup.Item action href={"#/xiii-softaustalo"}>XIII (2003) Map - Softaustalo</ListGroup.Item>
+      <ListGroup.Item action href={"#/superbubble"}>Super Bubble - demo (2017)</ListGroup.Item>
     </>
   ];
 
