@@ -2,7 +2,8 @@ import SlideShow from '../components/slideshow';
 import YoutubePlayer from '../components/youtube_player';
 import './styles.css';
 import img1 from "../assets/images/UglyUnicorn/image-1.jpg";
-import img2 from "../assets/images/UglyUnicorn/image-2.png";
+import img2 from "../assets/images/UglyUnicorn/image-2.jpg";
+import img3 from "../assets/images/UglyUnicorn/image-3.png";
 
 export default function UglyUnicornPage({ imageSlider }) {
     const scaleItem = window.innerWidth < imageSlider.width; // Boolean for checking max width for the slider
@@ -20,11 +21,13 @@ export default function UglyUnicornPage({ imageSlider }) {
     const slides = [
         { url: img1, title: "Menu" },
         { url: img2, title: "Gameplay1" },
+        { url: img3, title: "Gameplay2" },
     ];
 
     const containerStyles = {
         width: sliderWidth + 'px',
         height: sliderHeight + 'px',
+
         margin: '0 auto',
         marginBottom: '100px',
     }
