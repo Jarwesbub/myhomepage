@@ -52,6 +52,7 @@ export default function ReDeckBuilingGame({ imageSlider }) {
                     <p>
                         When one of your favorite board games has been discontinued for over 10 years and aftermarket is almost nonexistent. What to do when you want to play it with friends? Make your own version of it of course! This fan project is made for long discontinued board game: “Resident Evil -Deck Building Game” but with fully functional online play. Demo uses already existing cards from the game and combines the original board game concept with online play. Game runs on Unity’s latest engine and can hold up to 20 players in one game session. Game mechanics resemble the popular Table Top Simulator -game which provides authentic feel of your late night board gaming with friends. Ofcourse try not to cheat on the game. You may get kicked out of the club!
                     </p>
+                    {link_to_github}
             </div>
             <h3 className='secondary-headline'>Gameplay</h3>
             <div className='youtube-video'>
