@@ -24,7 +24,7 @@ export default function AboutMe() {
         "JavaScript = Intermediate",
         "C/C++ = Basics",
         "Java = Basics",
-        "Dart = Basics",
+        "Kotlin = Basics",
     ];
 
     const skillsTableMobile = (
@@ -116,7 +116,7 @@ export default function AboutMe() {
                 </a>
             </div>
             <h2 className='main-headline'>Jarno Liedes</h2>
-            <p>Information and Communication Technology - Bachelor of Engineering - Software Developer</p>
+            <p>Information Communication Technology - Bachelor of Engineering - Software Developer</p>
             <p>Unity Hobbyist</p>
             <div className='table-group'>
                 <h4 className='secondary-headline'>Skills</h4>
@@ -132,7 +132,7 @@ export default function AboutMe() {
                 <div>
                     <h4>As a Salesman</h4>
                     <p>
-                        Earlier in my career I was a salesman in variety of companies. Most of my knowledge came from working as an door-to-door salesman in home security services and products in Sector Alarm -company. I also have few years of experience in customer service and cash work in various of companies.
+                        Earlier in my career I was a salesman in variety of companies. Most of my knowledge came from working on as a door-to-door salesman in home security services and products in Sector Alarm Oy. I also have few years of experience in customer service and cash work.
                     </p>
                 </div>
             </div>
@@ -141,14 +141,14 @@ export default function AboutMe() {
                 <div>
                     <h4>Retro games</h4>
                     <p>
-                        Deep love with PS1 and PS2 -era gaming. Mainly collecting PS1 games and other related stuff.&nbsp;
-                        <a href="https://www.pricecharting.com/offers?seller=ippz42htk3bqfma6q3ghctkfcm&status=collection" title='pricecharting.com ' target="_blank" rel="noreferrer">(check out my collection)</a>
+                        Deep love with PS1 and PS2 era gaming. Mainly collecting PS1 games and other related stuff.&nbsp;
+                        <a href="https://www.pricecharting.com/offers?status=collection&seller=ippz42htk3bqfma6q3ghctkfcm&sort=highest-price&category=video-games&console=&folder-id=&condition-id=all" title='pricecharting.com ' target="_blank" rel="noreferrer">(check out my collection)</a>
                     </p>
                 </div>
                 <div>
                     <h4>Cosplay</h4>
                     <p>
-                        Over 10 years of sewing costumes and crafting projects. Also a little bit of customer works.
+                        Over 10 years of sewing costumes and crafting projects with a little bit customer works along the way.
                     </p>
                 </div>
                 <div>
