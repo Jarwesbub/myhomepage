@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useReducer } from "react";
 import './styles.css';
 import avatar from '../assets/images/myavatar.jpg';
 import imgREDBG from '../assets/images/features/redbg_feature_720p.png';
@@ -13,7 +13,7 @@ export default function FrontPage(props) {
     const dualImageSize = '46%'
     const singleImageSize = '86%'
 
-    useEffect(() => {
+    useReducer(() => {
         const updateMobileView = () => {
             setMobileView(window.innerWidth < props.widthLimit)
         }
@@ -103,6 +103,9 @@ export default function FrontPage(props) {
                     <p>Hi, my name is Jarno and welcome to my portfolio page! This site contains some of my various game and programming projects.
                         You can check my GitHub profile and all of my public projects&nbsp;
                         <a href="https://github.com/Jarwesbub" title='https://github.com/Jarwesbub' target="_blank" rel="noreferrer">here.</a>
+                    </p>
+                    <p>You can also check out my recently patched mobile game "Ugly Unicorn" on&nbsp;
+                        <a href="https://play.google.com/store/apps/details?id=com.RaatoGames.UglyUnicorn&pli=1" title='Google Play - Ugly Unicorn' target="_blank" rel="noreferrer">Google Play.</a>
                     </p>
                 </div>
             </div>
