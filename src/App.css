@@ -1,6 +1,11 @@
 .App {
   text-align: center;
-  color: white;
+  color: rgb(244, 238, 224); /*Main text font color*/
+  background-color: #1d1d22;
+  max-width: 150ch;
+  position: center;
+  margin: auto;
+  border-radius: 10px;
 }
 
 .App-header {

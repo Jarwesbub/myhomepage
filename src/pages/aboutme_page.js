@@ -116,8 +116,10 @@ export default function AboutMe() {
                 </a>
             </div>
             <h2 className='main-headline'>Jarno Liedes</h2>
-            <p>Information Communication Technology - Bachelor of Engineering - Software Developer</p>
-            <p>Unity Hobbyist</p>
+            <div className='main-followupline'>
+                <p>Information Communication Technology - Bachelor of Engineering - Software Developer</p>
+                <p>Unity Hobbyist</p>
+                </div>
             <div className='table-group'>
                 <h4 className='secondary-headline'>Skills</h4>
                 {isMobileView ? skillsTableMobile : skillsTableDesktop}

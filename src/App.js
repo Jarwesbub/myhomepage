@@ -19,8 +19,8 @@ const imageSliderSize = { width: 960, height: 540 }; // Initial pages
 function App() {
   return (
     <div className="App">
+      <NavBar widthLimit={widthLimit}/>
       <Container className="App-container" fluid>
-        <NavBar widthLimit={widthLimit}/>
         <Routes>
           <Route className="page-routes">
             <Route path={"/"} element={<FrontPage widthLimit={widthLimit} />} />

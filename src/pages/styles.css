@@ -2,12 +2,12 @@
     margin-top: 60px;
     margin-bottom: 120px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 .front_page h3 {
     text-align: center;
     margin: auto;
-
 }
 
 .front_page #avatar-info {
@@ -29,6 +29,7 @@
 .front_page #avatar-text {
     padding-left: 2%;
     padding-right: 2%;
+    
 }
 
 .main-page {
@@ -40,9 +41,11 @@
 .main-page h3 {
     text-align: center;
     margin: auto;
+    max-width: 1080px;
     padding: 20px;
     border-style: outset;
-    border-color: rgba(0, 0, 0, 0.096);
+    background-color: #18181d;
+    border-color: rgb(59, 59, 59);
 }
 
 .main-headline {
@@ -59,12 +62,27 @@
     max-width: 1080px;
     text-align: center;
     margin: auto;
-    padding: 20px;
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
     border-style: outset;
     border-color: rgba(0, 0, 0, 0.096);
 }
 
-.youtube-video {
-    margin: 0px;
+.image-slider {
+    margin:auto;
+    max-width: 1080px;
+    border-style: outset;
+    border-color: rgb(59, 59, 59);
 
+}
+
+.youtube-video {
+    max-width: 1080px;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    border-style: outset;
+    border-color: rgba(0, 0, 0, 0.096);
 }

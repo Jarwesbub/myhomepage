@@ -1,11 +1,14 @@
 .bar-main {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgba(27, 27, 36, 0.62);
+    background-color: rgb(41, 41, 65);
+    width: auto;
     color: white;
+    border-radius: 10px;
 }
 
 .listgroupitem{
     background-color: black;
+    color: white;
 }
 
 .footer-wrapper {

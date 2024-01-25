@@ -8,7 +8,6 @@ import img3 from "../assets/images/UglyUnicorn/image-3.png";
 export default function UglyUnicornPage({ imageSlider }) {
     const scaleItem = window.innerWidth < imageSlider.width; // Boolean for checking max width for the slider
     const screenWidth = window.innerWidth - 40; // Current screen width minus margin
-    const sliderWidth = scaleItem ? screenWidth : imageSlider.width;
     const sliderHeight = scaleItem ? (imageSlider.height / imageSlider.width) * screenWidth : imageSlider.height;
 
     // Scrolls window instantly to the top
@@ -24,18 +23,10 @@ export default function UglyUnicornPage({ imageSlider }) {
         { url: img3, title: "Gameplay2" },
     ];
 
-    const containerStyles = {
-        width: sliderWidth + 'px',
-        height: sliderHeight + 'px',
-
-        margin: '0 auto',
-        marginBottom: '100px',
-    }
-
     return (
         <form className="main-page">
             <h2 className='main-headline'>Ugly Unicorn - Android Game</h2>
-            <div style={containerStyles} >
+            <div className='image-slider'style={{ marginBottom: '80px' }}>
                 <SlideShow autoplay={true} slideImages={slides} imageHeight={sliderHeight + 'px'} />
             </div>
             <h3 className='secondary-headline'>Info</h3>

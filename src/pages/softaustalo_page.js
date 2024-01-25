@@ -15,7 +15,6 @@ import img9 from "../assets/images/Softaustalo/softaustalo_ue2_gameplay_7.png";
 export default function Softaustalo({ imageSlider }) {
     const scaleItem = window.innerWidth < imageSlider.width; // Boolean for checking max width for the slider
     const screenWidth = window.innerWidth - 40; // Current screen width minus margin
-    const sliderWidth = scaleItem ? screenWidth : imageSlider.width;
     const sliderHeight = scaleItem ? (imageSlider.height / imageSlider.width) * screenWidth : imageSlider.height;
 
     // Scrolls window instantly to the top
@@ -37,28 +36,20 @@ export default function Softaustalo({ imageSlider }) {
         { url: img2, title: "Editor2" },
     ];
 
-    const containerStyles = {
-        width: sliderWidth + 'px',
-        height: sliderHeight + 'px',
-        margin: '0 auto',
-        marginBottom: '100px',
-    }
-
     return (
         <form className="main-page">
             <h2 className='main-headline'>XIII (2003) - Unreal Editor 2 - Softaustalo</h2>
-            <div style={containerStyles} >
+            <div className='image-slider'style={{ marginBottom: '80px' }}>
                 <SlideShow autoplay={true} slideImages={slides} imageHeight={sliderHeight + 'px'} />
             </div>
             <div className='margin-group'>
                 <h3 className='secondary-headline'>Info</h3>
-                <div className='border-lines-1080'>
+                <div className='border-lines-1080' style={{ marginBottom: '100px' }}>
                     <p>
                     Map for the classic PC/console game&nbsp;<a href="https://en.wikipedia.org/wiki/XIII_(2003_video_game)" title='wikipedia.org' target="_blank" rel="noreferrer">XIII (2003)</a>
                         , created in Unreal Editor 2 by me. Project was quite a challenge to make thanks to the heavily outdated engine and game itself. Nowadays polygon count in 3D environment don’t matter as much as it did back in the days. It's amazing how dynamic lighting in Unreal Engine 2 really made games standout.
                         Map also supports full online play with max of 16 players in fanmade servers.
                     </p>
-                    <p><br></br>More stuff coming soon!</p>
                 </div>
             </div>
             <h3 className='secondary-headline'>Gameplay (with bots)</h3>

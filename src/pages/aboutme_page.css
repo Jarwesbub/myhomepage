@@ -11,9 +11,13 @@
     margin-bottom: 40px;
 }
 
+.main-followupline {
+    margin-bottom: 80px;
+}
+
 .secondary-headline {
-    margin-top: 60px;
-    margin-bottom: 20px;
+    margin: auto;
+    max-width: 1080px;
     text-align: center;
 }
 
@@ -21,16 +25,19 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
     text-align: left;
 }
 
 .table-th-headline {
     font-size: 18px;
     font-style: italic;
-    padding-bottom: 10px;
+    padding: 5px;
     padding-inline-start: 50px;
     padding-inline-end: 50px;
+    border-style: outset;
+    background-color: #18181d;
+    border-color: rgb(59, 59, 59);
 }
 
 .table-th {
@@ -52,17 +59,25 @@
 }
 
 .aboutme-group-wrapper h4 {
+    border-radius: 10px;
     font-style: italic;
-    margin-top: 60px;
-    margin-bottom: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    max-width: 1080px;
+    border-style: outset;
+    background-color: #18181d;
+    border-color: rgb(59, 59, 59);
     
 }
 
 .aboutme-group-wrapper p {
     max-width: 1080px;
     text-align: center;
-    margin: auto;
-    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    padding: 30px;
     border-style: outset;
     border-color: rgba(0, 0, 0, 0.096);
 }
