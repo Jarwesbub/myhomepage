@@ -47,10 +47,6 @@ export default function SuperBubblePage({ imageSlider }) {
                     Coding and all the very rough graphics are made by me back in 2017.
                 </p>
             </div>
-            <div className='border-lines-1080' style={{ marginBottom: '100px' }}>
-                <p>Link to GitHub repository coming soon!</p>
-                <a href="" title=''></a>
-            </div>
             <h3 className='secondary-headline'>Gameplay</h3>
             <div className='youtube-video'>
                 <YoutubePlayer className='youtube-video' videoId={"26h5UuWtPew"} />
